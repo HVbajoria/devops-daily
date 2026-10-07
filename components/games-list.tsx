@@ -38,8 +38,10 @@ import {
   Gamepad2,
   FlaskConical,
   LucideIcon,
+  Siren,
   FileCode,
   Clock,
+  Puzzle,
 } from 'lucide-react';
 import Link from 'next/link';
 
@@ -69,6 +71,8 @@ const iconMap: Record<string, LucideIcon> = {
   GitBranch,
   GitMerge,
   Webhook,
+  Siren,
+  Puzzle,
 };
 
 // Serializable game type with icon component

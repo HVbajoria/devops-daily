@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@giscus/react": "^3.1.0",
-    "@next/third-parties": "^16.3.6",
+    "@next/third-parties": "^16.3.8",
     "@radix-ui/react-accordion": "1.2.20",
     "@radix-ui/react-alert-dialog": "1.1.23",
     "@radix-ui/react-aspect-ratio": "1.1.15",
@@ -101,22 +101,22 @@
     "input-otp": "1.5.0",
     "js-yaml": "^5.4.2",
     "lottie-web": "^5.13.0",
-    "lucide-react": "^1.48.0",
+    "lucide-react": "^1.50.0",
     "marked": "^18.0.14",
     "marked-gfm-heading-id": "^4.1.4",
     "marked-highlight": "^2.2.4",
-    "next": "16.3.6",
+    "next": "16.3.8",
     "next-themes": "0.4.6",
     "react": "^19.3.0",
     "react-confetti": "^6.4.0",
     "react-dom": "^19.3.0",
-    "react-resizable-panels": "^4.13.3",
+    "react-resizable-panels": "^4.14.2",
     "recharts": "3.10.1",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "rss-parser": "^3.13.0",
-    "sanitize-html": "^2.17.7",
-    "simple-git": "^3.36.0",
+    "sanitize-html": "^2.18.0",
+    "simple-git": "^4.0.2",
     "sonner": "^2.0.8",
     "tailwind-merge": "^3.7.0",
     "tailwindcss-animate": "^1.0.7",
@@ -127,22 +127,22 @@
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/typography": "0.5.20",
-    "@types/node": "^26.6.2",
+    "@types/node": "^26.6.4",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "@types/sanitize-html": "^2.16.1",
-    "@vitest/ui": "^5.0.1",
+    "@types/sanitize-html": "^2.16.2",
+    "@vitest/ui": "^5.0.3",
     "eslint": "^9.39.2",
-    "eslint-config-next": "16.3.6",
+    "eslint-config-next": "16.3.8",
     "fast-glob": "^3.3.3",
     "postcss": "^8.5.28",
     "prettier": "^3.9.9",
-    "sharp": "^0.35.4",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.15",
     "typescript": "^6.0.3",
-    "vite": "8.3.1",
-    "vitest": "^5.0.1"
+    "vite": "8.3.2",
+    "vitest": "^5.0.3"
   },
   "pnpm": {
     "overrides": {
@@ -152,7 +152,13 @@
       "undici@7": "^7.29.1",
       "browserslist": "^4.28.7",
       "sharp@<0.35.0": "^0.35.3",
-      "brace-expansion@1": "^1.1.20"
+      "brace-expansion@1": "^1.1.20",
+      "source-map-js@<1.2.2": "^1.2.2"
+    },
+    "auditConfig": {
+      "ignoreGhsas": [
+        "GHSA-vfj7-8cjw-p6xm"
+      ]
     }
   }
 }
